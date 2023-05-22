@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Napoleon</title>
+    <link rel='stylesheet' href='/style.css' />
+    
+  </head>
+  <body>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-39XE48ZRFW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-39XE48ZRFW');
+</script>
+    <h1>Napoleon URL Shortener</h1>
+    <a href="http://<%= value %>"> http://<%= value %></a>
+    <img src="/ad.png" alt="">
+  </body>
+  <script>window.setTimeout(function(){window.location.href = "http://<%= value %>";}, 5000);</script>
+
+</html>
