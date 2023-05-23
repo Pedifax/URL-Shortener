@@ -6,14 +6,16 @@ This is a course project for COMP 539 at Rice University.
 ### Features
 
 - Freemium and premium accounts
+- URL management page
+  - Statistics of URL referring countries
+  - Statistics of URL referring sites
 - Advertisement in referring page for freemium users
-- URL management page including URL analytics
-- Bulk API for URL shortening
-- Redis caching
-- Google Analytics for better monitor and data collection
 - Automated deployment with JMeter testing
   - 98% of the requests have latencies that are less than 2 second
-- Google OAuth 2.0
+- Bulk API for URL shortening
+- Google Analytics for better monitor and data collection
+- Google OAuth 2.0 login
+- Redis caching
   
 ### Application Screenshots
 
