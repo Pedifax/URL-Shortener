@@ -8,9 +8,11 @@ This is a course project for COMP 539 at Rice University.
 - Freemium and premium accounts
 - Advertisement in referring page for freemium users
 - URL management page including URL analytics
+- Bulk API for URL shortening
 - Redis caching
 - Google Analytics for better monitor and data collection
 - Automated deployment with JMeter testing
+  - 98% of the requests have latencies that are less than 2 second
 - Google OAuth 2.0
   
 ### Application Screenshots
@@ -30,6 +32,18 @@ This is a course project for COMP 539 at Rice University.
 - Advertisement in referring page
 
 ![Advertisement in referring page](./screenshots/ad.png)
+
+- Buld API
+
+![Bulk API](./screenshots/bulk_api.png)
+
+- JMeter testing
+
+![JMeter testing](./screenshots/jmeter.png)
+
+- Google Analytics
+
+![Google Analytics](./screenshots/google_analytics.png)
 
 
 ## Technology Details
