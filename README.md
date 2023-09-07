@@ -35,7 +35,7 @@ This is a course project for COMP 539 at Rice University.
 
 ![Advertisement in referring page](./screenshots/ad.png)
 
-- Buld API
+- Bulk API
 
 ![Bulk API](./screenshots/bulk_api.png)
 
