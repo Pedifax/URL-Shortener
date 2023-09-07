@@ -26,7 +26,7 @@ const port = PORT;
 
 // Enabling frontend requests
 const corsOptions = {
-  origin: [FRONTEND_URL], // TODO: add final frontend URL
+  origin: [FRONTEND_URL],
   credentials: true,
 };
 app.use(cors(corsOptions));
@@ -72,7 +72,6 @@ app.get('/_ah/warmup', (_req, res) => {
 });
 
 app.get('*', (_req: Request, res: Response) => {
-  // res.render('index.ejs', { title: 'Express' });
   res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'), { root: path.resolve(__dirname, '..'), lastModified: false, etag: false });
 });
 
